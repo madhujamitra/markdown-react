@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.App{
+  display: flex;
+  height: 100vh;
+  gap: 1rem;
+ 
+}
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: strong;
+}
+.input{
+  width:100%;
+  height:100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+.result{
+
+  width:100%;
+  height:100%;
+  
+  padding:5px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 2px 2px 2px 2px #D9DDDC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+  font-size: 1rem;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.editor{
+  resize: none;
+  flex:1;
+  overflow-y: auto;
+}
+
+.output{
+  flex: 2;
+  overflow-y: auto;
+
+}
