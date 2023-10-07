@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReactMarkdown from "react-markdown";
 import './App.css';
 import { marked } from 'marked';
 
